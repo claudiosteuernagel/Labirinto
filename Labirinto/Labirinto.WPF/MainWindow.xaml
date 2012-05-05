@@ -1,0 +1,23 @@
+﻿<Window x:Class="Labirinto.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Labirinto" Height="195" Width="700" ResizeMode="CanResize" Loaded="WindowLoaded" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignWidth="653">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Height="412" Width="690">
+        <Label Content="Labirinto" Height="57" HorizontalAlignment="Center" Margin="12,0" Name="label1" VerticalAlignment="Top" Width="479" DataContext="{Binding}" Foreground="Black" BorderBrush="White" FontSize="36" FontWeight="Normal" FontStyle="Italic" BorderThickness="2" RenderTransformOrigin="1,0" SnapsToDevicePixels="False" HorizontalContentAlignment="Center" />
+        <Grid Margin="12,155,12,253" Name="grid1" Width="666" HorizontalAlignment="Center" VerticalAlignment="Stretch"></Grid>
+        <Button Content="Exibir melhor rota" Height="23" HorizontalAlignment="Left" Margin="12,121,0,0" Name="btnMelhotRota" VerticalAlignment="Top" Width="112" Click="ExibirMelhorRotaClick" IsEnabled="False"/>
+        <Button Content="Carregar mapa" Height="23" HorizontalAlignment="Left" Margin="12,63,0,0" Name="btnCarregar" VerticalAlignment="Top" Width="112" Click="CarregarMapaClick"/>
+        <Button Content="Verificar Rotas" Height="23" HorizontalAlignment="Left" Margin="12,92,0,0" Name="btnVerificarRotas" VerticalAlignment="Top" Width="112" Click="VerificarRotasClick" IsEnabled="False" />
+        <Grid Height="81" Margin="130,63,12,0" Name="grid2" VerticalAlignment="Top">
+            <Label Content="É possivel chegar à saída:" Height="25" HorizontalAlignment="Left" Name="label2" VerticalAlignment="Top" />
+            <Label Content="?" Height="25" HorizontalAlignment="Left" Margin="140,0,0,0" Name="label3" VerticalAlignment="Top" Width="52" IsEnabled="False" FontWeight="Bold" />
+            <Label Content="Núm. de passos necessários para chegar à saída:" Height="25" HorizontalAlignment="Left" Margin="0,0,0,29" Name="label4" VerticalAlignment="Bottom" Width="266" />
+            <Label Content="?" FontWeight="Bold" Height="25" IsEnabled="False" Margin="0,27,242,0" Name="label5" VerticalAlignment="Top" HorizontalAlignment="Right" Width="43" />
+            <Rectangle Height="81" HorizontalAlignment="Left" Margin="345,0,0,0" Name="rectangle1" Stroke="Black" VerticalAlignment="Top" Width="203" Visibility="Hidden" />
+            <Label Content="Desenvolvido por:" FontWeight="Bold" Height="25" HorizontalAlignment="Left" Margin="345,0,0,0" Name="label6" VerticalAlignment="Top" Width="203" Visibility="Hidden" />
+            <Label Content="Thiago Strutz" Height="31" HorizontalAlignment="Right" Margin="0,36,-7,0" Name="label7" VerticalAlignment="Top" Width="203" Visibility="Hidden" />
+            <Label Content="Cláudio E. Steuernagel" Height="27" Margin="353,18,-7,0" Name="label8" VerticalAlignment="Top" Visibility="Hidden" />
+            <Label Content="ECP 341 - Estrutura de Dados II" Height="23" HorizontalAlignment="Right" Margin="0,58,0,0" Name="label9" VerticalAlignment="Top" Width="203" FontWeight="Bold" FontStyle="Italic" Visibility="Hidden" />
+        </Grid>
+    </Grid>
+</Window>
