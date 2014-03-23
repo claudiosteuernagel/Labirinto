@@ -1,8 +1,8 @@
 Labirinto
 =========
 
-Labirinto(jogo) desenvolvido para um trabalho de faculdade, utilizando teoria dos grafos e algoritmo de busca em amplitude(BFS).
+Labirinto(jogo) desenvolvido para um trabalho de faculdade, para a cadeira de An谩lise de Algor铆tmos 2, utilizando teoria dos grafos e algoritmo de busca em amplitude(BFS).
 
 ----------------------
-Este c骴igo estava anteriormente em um reposit髍io Mercurial. Por este motivo, para consultar o hist髍ico 
-de commits, consultar o antigo reposit髍io. Link: https://bitbucket.org/claudiosteuernagel/labirinto
+Este c贸digo estava anteriormente em um reposit贸rio Mercurial. Por este motivo, para consultar o hist贸rico 
+de commits, consultar o antigo reposit贸rio. Link: https://bitbucket.org/claudiosteuernagel/labirinto
